@@ -1,0 +1,125 @@
+/* Basic Reset and Halloween Variables */
+:root {
+    --primary-color: #ff6600; /* Spooky Orange */
+    --secondary-color: #6a05ad; /* Deep Purple */
+    --background-color: #1a1a1a; /* Pitch Black */
+    --text-color: #f0f0f0; /* Ghostly White */
+    --code-bg: #222222; /* Darker code block */
+    --code-text: #66ff66; /* Eerie Green for code */
+    --border-color: #333333;
+}
+
+body {
+    font-family: 'Georgia', serif; /* More classic/gothic font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 3rem 0;
+    text-align: center;
+    /* Spooky Shadow/Glow */
+    box-shadow: 0 0 20px var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+header .subtitle {
+    margin-top: 0;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: var(--code-bg); /* Dark sections on a darker background */
+    border-radius: 12px;
+    /* Subtle glow effect for the sections */
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+    border: 1px solid var(--secondary-color);
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px dashed var(--secondary-color); /* Dashed, spooky line */
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Image Styling */
+.project-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid var(--primary-color); /* Orange border */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(255, 102, 0, 0.5); /* Stronger shadow */
+}
+
+/* Code Block Styling */
+.code-container {
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+}
+
+pre {
+    background-color: var(--code-bg);
+    color: var(--code-text);
+    padding: 15px;
+    border-radius: 6px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.95rem;
+    white-space: pre-wrap; 
+    word-break: break-all;
+    /* Inner code block shadow for depth */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Video Styling */
+#video iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 3px solid var(--primary-color);
+}
+
+/* Note Styling */
+.note {
+    font-size: 0.95rem;
+    color: var(--primary-color); /* Orange notes */
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px dashed var(--secondary-color);
+    color: var(--text-color);
+    background-color: #111111;
+}
