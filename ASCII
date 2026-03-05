@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CS Project: [Project Name]</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+
+    <header>
+        <h1>ASCII  </h1>
+        <p class="subtitle">A Computer Science Class Project from the Crypt</p>
+    </header>
+
+    <main>
+        <section id="description">
+            <h2>Project Overview and Purpose 👻</h2>
+            <p>
+                This project, ASCII, was developed as part of the Computer Science
+                and app development course. 
+                Its primary purpose is to learn how to code games. 
+                The key challenges involved is to learn the different ways to create the games. Ultimately, this project serves as a functional example of app development.
+            </p>
+            <p>
+                The technology stack includes: JavaScript, css, html, and mit app inventor.
+            </p>
+        </section>
+
+        <section id="visual">
+            <h2>Project Screenshot/Image 🦇</h2>
+            <img src="/binary converter.jpeg" alt="A screenshot or visual representation of the project interface or output." class="project-img">
+        </section>
+
+        <section id="code">
+        
+
+                </code></pre>
+            </div>
+            
+
+        <section id="video">
+            <h2>Project summary 🕯️</h2>
+            This ASCII converter was created using Gemini. It shows and teached how to calculate binary. It uses words and converts it into binary.  Binary is numbers 1 and 0. Every computer or phone uses binary and then converts it into words or emoji's.
+          
+    </main>
+  <div class="project-card">
+  <a href="index.html" class="back-btn">← Back</a>
+  
+
+
+</div> 
+    <footer>
+        <p>&copy; 2025 [Your Name] | Computer Science Project</p>
+    </footer>
+
+</body>
+</html>
