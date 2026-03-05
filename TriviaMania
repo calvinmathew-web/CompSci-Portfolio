@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CS Project: [Project Name]</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+
+    <header>
+        <h1>Trivia Mania  </h1>
+        <p class="subtitle">A Computer Science Class Project from the Crypt</p>
+    </header>
+
+    <main>
+        <section id="description">
+            <h2>Project Overview and Purpose </h2>
+            <p>
+                This project, Trivia Mania, was developed as part of the Computer Science
+                and app development course. 
+                Its primary purpose is to learn how to code games. 
+                The key challenges involved is to learn the different ways to create the games. Ultimately, this project serves as a functional example of app development.
+            </p>
+            <p>
+
+            </p>
+        </section>
+
+        <section id="visual">
+            <h2>Project Screenshot/Image 🦇</h2>
+            <img src="/TRIVIA MANIA.png" alt="A screenshot or visual representation of the project interface or output." class="project-img">
+        </section>
+
+        <section id="code">
+            <h2>Project Code Snippet 🧪</h2>
+            <img src="/blocks (2).png" height="100%" width="100%">
+               
+            
+        </section>
+
+        
+            <h2>Project summary 🕯️</h2>
+            This TRIVIA MANIA app was created in app inventer. App inventer is website in which people can create apps. We used app inventor to create a fun learning experiance of different topic. Students would chose a topic that they are mots interested about and create trivia question about the topic. 
+
+    <footer>
+       
+   
+<div class="project-card">
+  <a href="index.html" class="back-btn">← Back</a>
+  
+ 
+  <h2></h2>
+  <p>Project description...</p>
+</div> 
+</body>
+</html>
+
